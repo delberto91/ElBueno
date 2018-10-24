@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Larke Neue Bold.ttf">
+            <string>LarkeNeueBold-Bold</string>
+        </array>
+        <array key="Larke Neue Regular.ttf">
+            <string>LarkeNeue-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Registro Externos View Controller-->
+        <scene sceneID="YHN-5E-ZYl">
+            <objects>
+                <viewController storyboardIdentifier="RegistroExternos" id="j6W-4U-8rn" customClass="RegistroExternosViewController" customModule="Sports_World" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="98n-IL-QpM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heI-c7-5CR">
+                                <rect key="frame" x="32" y="516" width="311" height="51"/>
+                                <color key="backgroundColor" red="0.91372549020000005" green="0.1450980392" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="szS-rn-x5b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LarkeNeueBold-Bold" family="Larke Neue Bold" pointSize="16"/>
+                                <state key="normal" title="Regístrate"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="registroClick:" destination="j6W-4U-8rn" eventType="touchUpInside" id="xQw-nd-Nra"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVE-n1-gBS">
+                                <rect key="frame" x="32" y="574" width="311" height="52"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="LarkeNeueBold-Bold" family="Larke Neue Bold" pointSize="16"/>
+                                <state key="normal" title="Cancelar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cerrarClick:" destination="j6W-4U-8rn" eventType="touchUpInside" id="9N4-78-vZQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_forgot_password" translatesAutoresizingMaskIntoConstraints="NO" id="eAd-sJ-T1C">
+                                <rect key="frame" x="122.5" y="38" width="130" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="bx8-Yy-Lh6"/>
+                                    <constraint firstAttribute="width" constant="130" id="xkT-Xx-pEI"/>
+                                </constraints>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-1n-q0R">
+                                <rect key="frame" x="28" y="148" width="319" height="345"/>
+                                <connections>
+                                    <segue destination="P8I-Bc-Vbq" kind="embed" id="NyI-ts-TfL"/>
+                                </connections>
+                            </containerView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="T4u-2z-aac">
+                                <rect key="frame" x="171" y="317" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="color" red="0.91372549020000005" green="0.1450980392" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="heI-c7-5CR" firstAttribute="leading" secondItem="AVE-n1-gBS" secondAttribute="leading" id="1E0-BC-gro"/>
+                            <constraint firstItem="Plc-1n-q0R" firstAttribute="top" secondItem="eAd-sJ-T1C" secondAttribute="bottom" constant="22" id="5YB-Og-Xsq"/>
+                            <constraint firstItem="heI-c7-5CR" firstAttribute="trailing" secondItem="AVE-n1-gBS" secondAttribute="trailing" id="DxI-Dh-Apn"/>
+                            <constraint firstItem="Plc-1n-q0R" firstAttribute="centerY" secondItem="98n-IL-QpM" secondAttribute="centerY" constant="-13" id="E5l-x7-Vh6"/>
+                            <constraint firstItem="Plc-1n-q0R" firstAttribute="centerX" secondItem="heI-c7-5CR" secondAttribute="centerX" id="JZW-tH-Zm0"/>
+                            <constraint firstItem="wjS-b3-ktA" firstAttribute="bottom" secondItem="AVE-n1-gBS" secondAttribute="bottom" constant="41" id="LMa-X8-SVY"/>
+                            <constraint firstItem="eAd-sJ-T1C" firstAttribute="centerX" secondItem="wjS-b3-ktA" secondAttribute="centerX" id="MSK-Yf-DgC"/>
+                            <constraint firstItem="eAd-sJ-T1C" firstAttribute="top" secondItem="wjS-b3-ktA" secondAttribute="top" constant="18" id="N6B-YN-LC0"/>
+                            <constraint firstItem="Plc-1n-q0R" firstAttribute="leading" secondItem="wjS-b3-ktA" secondAttribute="leading" constant="28" id="YTV-Om-7R9"/>
+                            <constraint firstItem="heI-c7-5CR" firstAttribute="leading" secondItem="wjS-b3-ktA" secondAttribute="leading" constant="32" id="hgQ-jk-Ede"/>
+                            <constraint firstItem="heI-c7-5CR" firstAttribute="top" secondItem="Plc-1n-q0R" secondAttribute="bottom" constant="23" id="jro-cz-4Lu"/>
+                            <constraint firstItem="AVE-n1-gBS" firstAttribute="top" secondItem="heI-c7-5CR" secondAttribute="bottom" constant="7" id="qgS-BZ-7p9"/>
+                            <constraint firstItem="heI-c7-5CR" firstAttribute="centerX" secondItem="eAd-sJ-T1C" secondAttribute="centerX" id="rdm-5a-Upf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wjS-b3-ktA"/>
+                    </view>
+                    <connections>
+                        <outlet property="registro" destination="heI-c7-5CR" id="gFb-71-B90"/>
+                        <outlet property="spiner" destination="T4u-2z-aac" id="elS-Ob-Xzn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpM-oA-LoG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2626.4000000000001" y="-514.09295352323841"/>
+        </scene>
+        <!--Registro Externos Table View Controller-->
+        <scene sceneID="ceP-OF-FH7">
+            <objects>
+                <tableViewController id="P8I-Bc-Vbq" customClass="RegistroExternosTableViewController" customModule="Sports_World" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="E1o-mT-gxd">
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="345"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="separatorInset" minX="100000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <sections>
+                            <tableViewSection id="24G-x3-lvr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="345" id="fgJ-hh-0qI">
+                                        <rect key="frame" x="0.0" y="-322" width="319" height="345"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fgJ-hh-0qI" id="Ofk-PA-OUm">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="345"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nombre(s)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B6j-2h-vFb">
+                                                    <rect key="frame" x="0.0" y="6" width="319" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="lEs-rS-VcR"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="nombreCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="blM-K0-7uM"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Apellido paterno" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Xf-JM-I5Y">
+                                                    <rect key="frame" x="0.0" y="54" width="319" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="ZgZ-vu-5sX"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="paternoCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="ZLz-Ks-Wqa"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Apellido materno" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tTs-7r-6Yb">
+                                                    <rect key="frame" x="0.0" y="102" width="319" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="lLT-9b-OGG"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="maternoCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="t8I-7E-KJr"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fecha de nacimiento" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QJ3-7u-q4O">
+                                                    <rect key="frame" x="0.0" y="150" width="319" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="baE-Mw-P4p"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="nacimientoCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="8Df-lF-TXP"/>
+                                                        <action selector="nacimientoInicio:" destination="P8I-Bc-Vbq" eventType="editingDidBegin" id="rZd-2v-RKY"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Correo electrónico" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zph-uj-1Ig">
+                                                    <rect key="frame" x="0.0" y="198" width="319" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="45F-jq-4rz"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="correoCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="kHe-mK-9Wm"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Teléfono" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="faS-Cb-lX1">
+                                                    <rect key="frame" x="0.0" y="246" width="319" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="PBH-VC-30w"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="telefonoCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="4Nn-jY-xjz"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KhT-l1-dNr">
+                                                    <rect key="frame" x="0.0" y="294" width="319" height="40"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="LarkeNeue-Regular" family="Larke Neue" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="contraseñaCambia:" destination="P8I-Bc-Vbq" eventType="editingChanged" id="fsa-pN-Da0"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4Xf-JM-I5Y" firstAttribute="top" secondItem="B6j-2h-vFb" secondAttribute="bottom" constant="8" symbolic="YES" id="27t-OX-Hav"/>
+                                                <constraint firstItem="tTs-7r-6Yb" firstAttribute="trailing" secondItem="QJ3-7u-q4O" secondAttribute="trailing" id="62i-dJ-Iex"/>
+                                                <constraint firstItem="B6j-2h-vFb" firstAttribute="trailing" secondItem="4Xf-JM-I5Y" secondAttribute="trailing" id="7Tw-f1-xGJ"/>
+                                                <constraint firstItem="KhT-l1-dNr" firstAttribute="bottom" secondItem="Ofk-PA-OUm" secondAttribute="bottomMargin" id="HxD-7Z-9zp"/>
+                                                <constraint firstItem="KhT-l1-dNr" firstAttribute="top" secondItem="faS-Cb-lX1" secondAttribute="bottom" constant="8" symbolic="YES" id="Kpm-r8-dCV"/>
+                                                <constraint firstItem="QJ3-7u-q4O" firstAttribute="top" secondItem="tTs-7r-6Yb" secondAttribute="bottom" constant="8" symbolic="YES" id="L3x-kh-YyE"/>
+                                                <constraint firstItem="tTs-7r-6Yb" firstAttribute="leading" secondItem="QJ3-7u-q4O" secondAttribute="leading" id="Ml2-Gv-MJ9"/>
+                                                <constraint firstItem="B6j-2h-vFb" firstAttribute="top" secondItem="Ofk-PA-OUm" secondAttribute="topMargin" constant="-5" id="SFB-tO-tP8"/>
+                                                <constraint firstItem="faS-Cb-lX1" firstAttribute="top" secondItem="zph-uj-1Ig" secondAttribute="bottom" constant="8" symbolic="YES" id="UHp-Te-Tfk"/>
+                                                <constraint firstItem="B6j-2h-vFb" firstAttribute="leading" secondItem="Ofk-PA-OUm" secondAttribute="leading" id="V4I-q7-fgR"/>
+                                                <constraint firstItem="B6j-2h-vFb" firstAttribute="leading" secondItem="4Xf-JM-I5Y" secondAttribute="leading" id="WLx-6r-3aJ"/>
+                                                <constraint firstItem="faS-Cb-lX1" firstAttribute="leading" secondItem="KhT-l1-dNr" secondAttribute="leading" id="ZEM-Vj-fe3"/>
+                                                <constraint firstItem="QJ3-7u-q4O" firstAttribute="leading" secondItem="zph-uj-1Ig" secondAttribute="leading" id="blO-fT-U5d"/>
+                                                <constraint firstItem="4Xf-JM-I5Y" firstAttribute="leading" secondItem="tTs-7r-6Yb" secondAttribute="leading" id="dEU-3e-Orh"/>
+                                                <constraint firstItem="4Xf-JM-I5Y" firstAttribute="trailing" secondItem="tTs-7r-6Yb" secondAttribute="trailing" id="euP-ph-sCc"/>
+                                                <constraint firstAttribute="trailing" secondItem="B6j-2h-vFb" secondAttribute="trailing" id="hei-xq-8Mf"/>
+                                                <constraint firstItem="zph-uj-1Ig" firstAttribute="top" secondItem="QJ3-7u-q4O" secondAttribute="bottom" constant="8" symbolic="YES" id="lPT-5N-AAl"/>
+                                                <constraint firstItem="zph-uj-1Ig" firstAttribute="trailing" secondItem="faS-Cb-lX1" secondAttribute="trailing" id="m9n-sJ-8BX"/>
+                                                <constraint firstItem="zph-uj-1Ig" firstAttribute="leading" secondItem="faS-Cb-lX1" secondAttribute="leading" id="nAa-s4-035"/>
+                                                <constraint firstItem="faS-Cb-lX1" firstAttribute="trailing" secondItem="KhT-l1-dNr" secondAttribute="trailing" id="qDB-UN-jWc"/>
+                                                <constraint firstItem="tTs-7r-6Yb" firstAttribute="top" secondItem="4Xf-JM-I5Y" secondAttribute="bottom" constant="8" symbolic="YES" id="vII-PX-z1u"/>
+                                                <constraint firstItem="QJ3-7u-q4O" firstAttribute="trailing" secondItem="zph-uj-1Ig" secondAttribute="trailing" id="xOz-Vp-9Yc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="P8I-Bc-Vbq" id="gqu-bK-kvQ"/>
+                            <outlet property="delegate" destination="P8I-Bc-Vbq" id="SB0-yB-KeA"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="contraseña" destination="KhT-l1-dNr" id="01c-vf-2Bp"/>
+                        <outlet property="correo" destination="zph-uj-1Ig" id="mpl-kH-qul"/>
+                        <outlet property="materno" destination="tTs-7r-6Yb" id="vLK-WS-Dyj"/>
+                        <outlet property="nacimiento" destination="QJ3-7u-q4O" id="7AH-3Q-2Cb"/>
+                        <outlet property="nombre" destination="B6j-2h-vFb" id="iJY-KC-5Xm"/>
+                        <outlet property="paterno" destination="4Xf-JM-I5Y" id="lxi-MT-szs"/>
+                        <outlet property="telefono" destination="faS-Cb-lX1" id="UQY-pP-lSe"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DOv-eb-u3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3437" y="-514"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_forgot_password" width="121" height="75"/>
+    </resources>
+</document>

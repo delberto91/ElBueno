@@ -1,0 +1,202 @@
+PODS:
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.3.0):
+    - CocoaLumberjack/Default
+  - CryptoSwift (0.8.0)
+  - DLRadioButton (1.4.12)
+  - Firebase/Auth (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.4)
+  - Firebase/Core (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.2.0)
+  - Firebase/CoreOnly (5.10.0):
+    - FirebaseCore (= 5.1.5)
+  - Firebase/Database (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.3)
+  - Firebase/Messaging (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.2.0)
+  - Firebase/Storage (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.2)
+  - FirebaseAnalytics (5.2.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.0.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.5):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.3):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.2.2):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.2.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (3.0.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FLAnimatedImage (1.0.12)
+  - FSCalendar (2.7.9)
+  - GoogleAppMeasurement (5.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.0)"
+  - GoogleUtilities/Reachability (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.0)
+  - JTAppleCalendar (7.1.4)
+  - leveldb-library (1.20)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NYTPhotoViewer (2.0.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 2.0.0)
+    - NYTPhotoViewer/Core (= 2.0.0)
+  - NYTPhotoViewer/AnimatedGifSupport (2.0.0):
+    - FLAnimatedImage (~> 1.0.12)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (2.0.0)
+  - OneSignal (2.8.9)
+  - PlayerKit (1.2.0)
+  - Protobuf (3.6.1)
+  - SVGKit (2.0.1):
+    - CocoaLumberjack (~> 3.x)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - CocoaLumberjack/Swift
+  - CryptoSwift
+  - DLRadioButton (~> 1.4)
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - FSCalendar
+  - JTAppleCalendar
+  - NYTPhotoViewer
+  - OneSignal
+  - PlayerKit
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - CocoaLumberjack
+    - CryptoSwift
+    - DLRadioButton
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - FLAnimatedImage
+    - FSCalendar
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - JTAppleCalendar
+    - leveldb-library
+    - nanopb
+    - NYTPhotoViewer
+    - OneSignal
+    - PlayerKit
+    - Protobuf
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 2.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 01dd92bf730bab6fbde3e11ab93629f2e18456be
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  CryptoSwift: f81907430ebbe38b8404b4f6fb40f3c576a8755f
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  Firebase: 6691d47562a780c26281ce8464518faafc90c610
+  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
+  FirebaseAuth: 504b198ceb3472dca5c65bb95544ea44cfc9439e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: c6079de64c1a87000e52e9b408dddcadc901177f
+  FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
+  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
+  FirebaseMessaging: 000b32447b461b34b6b912b23ec11be20b503b5b
+  FirebaseStorage: fd82e5e5c474897e19972b34b22ac0f589dce04e
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  JTAppleCalendar: aaeee95e939e0b0a381fb51eb77738bd26bb10f6
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NYTPhotoViewer: 34b8bd6bcc297466adec1668f9a01249d73c90e6
+  OneSignal: 0fb3522620d392195ed8e90e4e96717c6085df45
+  PlayerKit: a1fd44e0d2277ac5e2e6cb1fae38e86c872abb5b
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SVGKit: 4055d9e809b5db8633755979cfb3b02dc5a8c20d
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 04585f31097589f1f1e60f62919688a66bdad75a
+
+COCOAPODS: 1.5.2

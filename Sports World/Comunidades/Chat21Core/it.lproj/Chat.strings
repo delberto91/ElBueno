@@ -1,0 +1,109 @@
+/*
+ Chat.strings
+ chat21
+ 
+ Created by Andrea Sponziello on 05/02/2018.
+ Copyright © 2018 Frontiere21. All rights reserved.
+ */
+
+"CancelLKey" = "Cancelar";
+"DoneLKey" = "Done";
+"CloseLKey" = "Cerrar";
+"BackLKey" = "Regresar";
+"SendLKey" = "Publico";
+"RequiredPlaceholderLKey" = "Requerido";
+"ConnectionErrorLKey" = "Error de conexión";
+"TimeToStringDateFormat" = "MMMM d";
+"Saving" = "Guardando...";
+"NetworkErrorTitle" = "Error de red";
+"NetworkError" = "Error de red durante la conexión.";
+
+"FewSecondsAgoLKey" = "hace algunos segundos";
+"AboutAMinuteAgoLKey" = "hace un minuto";
+"MinutesAgoLKey" = "hace minutos";
+"AboutAnHourAgoLKey" = "hace una hora";
+"HoursAgoLKey" = "hace horas";
+
+// *** tabbar menu labels ***
+
+"Authenticating" = "Iniciando sesión...";
+"UsernamePasswordInvalid" = "Usuario o contraseña no válida";
+"NetworkError" = "Ocurrio un error de conexión";
+"NetworkErrorTitle" = "Error de red";
+"UnknownError" = "Error desconocido";
+
+"Chat" = "Comunidades";
+"Profile" = "Pérfil";
+"Help" = "¿Necesitas Ayuda?";
+
+// *** chat labels ***
+
+"NoConversationsYet" = "Sin conversaciones";
+"DeleteConversationTitle" = "¿Quieres eliminar esta conversación";
+"DeleteConversationMessage" = "¿Seguro que quieres eliminar esta conversación? No te preocupes, todos los mensajes estarán a salvo. Solo vuelve a abrir el chat con el grupo o usuario para ver todos los mensajes intercambiados";
+"ChatConnected" = "conectado";
+"ChatDisconnected" = "conectando...";
+"ChatSend" = "Enviar";
+
+// settings view
+"ChatTerms" = "Terminos de uso";
+"ChatPrivacy" = "Privacidad";
+"ChatLicences" = "Licencia";
+
+// select user (new message) view
+"NewMessage" = "Nuevo mensaje";
+"NewGroup" = "Nuevo grupo";
+"Groups" = "Grupos";
+
+"last seen" = "visto";
+"group summary" = "grupo";
+
+// chat profile
+"Synchronizing contacts" = "Sincronizando contactos...";
+"ChatProfile" = "Perfil";
+"ChatSignoutAlert" = "¿Estas seguro?";
+"ChatCancel" = "Cancelar";
+"ChatSave" = "Guardar";
+"ChatSettingsMenuOption" = "Configuración";
+"ChatHelpMenuOption" = "Ayuda y soporte";
+"ChatLogoutMenuOption" = "Cerrar sesión";
+"ChatLogoutChatOption" = "Comunidades";
+"Open link" = "Abrir en safari";
+"Copy link" = "Copiar";
+"Group administrator" = "administrador";
+"Select group" = "seleccionar grupo";
+"Member info" = "información";
+"Member remove" = "eliminar participante";
+"Send message" = "Enviar mensaje";
+"Members" = "Miembtos";
+"Add user to group" = "Agregar %@ al grupo %@?";
+"Add" = "Agregar";
+"Just in group" = "Agregado al grupo";
+"Add member" = "Agregar participante";
+"You was added to group" = "Has agregado al grupo \"%@\"";
+"You created the group" = "Has creado el grupo \"%@\"";
+"You" = "Tu";
+"ShortDateFormat" = "yyyy/M/d";
+"yesterday" = "ayer";
+"today" = "hoy";
+"group info" = "Información del grupo";
+"new group" = "Nuevo grupo";
+"create group info message" = "Ingresa el tema del grupo";
+"group name placeholder" = "Nombre del grupo";
+"next" = "Siguiente";
+"cancel" = "Cancelar";
+"create" = "Crear";
+"contact name" = "Nombre del contacto";
+"remove" = "Eliminar";
+"add members" = "Agregar contactos";
+"group created by" = "Grupo creado por %@";
+"group created on" = "Creado en %@";
+"GroupNamePlaceholder" = "Ingresa el nombre del grupo";
+"GroupNameTitle" = "Nombre del grupo";
+"all contacts" = "Todos los contactos";
+"change fullname" = "Cambia el nombre";
+"change password" = "Cambia la contraseña";
+"settingsLegalSection" = "Legal";
+"Remove this member?" = "¿Deseas eliminar el participante?";
+"Remove" = "Eliminar";
+

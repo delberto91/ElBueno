@@ -1,0 +1,1153 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": null,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": null,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 14,
+      "symbol": "ReachabilityError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 15,
+      "symbol": "ReachabilityError.FailedToCreateWithAddress(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 16,
+      "symbol": "ReachabilityError.FailedToCreateWithHostname(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 17,
+      "symbol": "ReachabilityError.UnableToSetCallback",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 18,
+      "symbol": "ReachabilityError.UnableToSetDispatchQueue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 21,
+      "symbol": "ReachabilityChangedNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 34,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 36,
+      "symbol": "Reachability.NetworkReachable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 37,
+      "symbol": "Reachability.NetworkUnreachable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 39,
+      "symbol": "Reachability.NetworkStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 41,
+      "symbol": "Reachability.NetworkStatus.notReachable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 41,
+      "symbol": "Reachability.NetworkStatus.reachableViaWWAN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 41,
+      "symbol": "Reachability.NetworkStatus.reachableViaWiFi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 52,
+      "symbol": "Reachability.whenReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 53,
+      "symbol": "Reachability.whenUnreachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 54,
+      "symbol": "Reachability.reachableOnWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 57,
+      "symbol": "Reachability.notificationCenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 59,
+      "symbol": "Reachability.currentReachabilityString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 63,
+      "symbol": "Reachability.currentReachabilityStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 91,
+      "symbol": "Reachability.init(reachabilityRef:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 96,
+      "symbol": "Reachability.init(hostname:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 103,
+      "symbol": "Reachability.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 147,
+      "symbol": "Reachability.startNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 171,
+      "symbol": "Reachability.stopNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 180,
+      "symbol": "Reachability.isReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 198,
+      "symbol": "Reachability.isReachableViaWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 203,
+      "symbol": "Reachability.isReachableViaWiFi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Reachability.swift",
+      "line": 215,
+      "symbol": "Reachability.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": null,
+      "symbol": "Routine",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 10,
+      "symbol": "Club",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 30,
+      "symbol": "ClassSW",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 51,
+      "symbol": "GenericResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 56,
+      "symbol": "DescriptionResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 61,
+      "symbol": "DescriptionData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 67,
+      "symbol": "ClassResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 72,
+      "symbol": "ClassCategoriaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 77,
+      "symbol": "ClassCategoria",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 130,
+      "symbol": "ClubResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 135,
+      "symbol": "AsignMetaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 141,
+      "symbol": "AsignInbodyResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 147,
+      "symbol": "MetasResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 152,
+      "symbol": "DietDateData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 160,
+      "symbol": "MetaData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 165,
+      "symbol": "ComidaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 170,
+      "symbol": "Comida",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 175,
+      "symbol": "RecetaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 181,
+      "symbol": "Receta",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 187,
+      "symbol": "LastInbodyResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 192,
+      "symbol": "LastInbody",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 206,
+      "symbol": "ClubData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 221,
+      "symbol": "FacturaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 226,
+      "symbol": "Factura",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 233,
+      "symbol": "EntrenamientosResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 239,
+      "symbol": "RutinasResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 245,
+      "symbol": "Entrenamiento",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 257,
+      "symbol": "Entrenamiento.init(clave:orden:nombre:video:series:repeticiones:descanso:completado:fechaStr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 269,
+      "symbol": "RutinaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 275,
+      "symbol": "CompletadoResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 280,
+      "symbol": "Rutina",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 290,
+      "symbol": "Horarios",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 300,
+      "symbol": "DatosResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 305,
+      "symbol": "Datos",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 312,
+      "symbol": "MenuActividadResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 317,
+      "symbol": "MenuActividad",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 324,
+      "symbol": "PasesResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 328,
+      "symbol": "Pases",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 334,
+      "symbol": "PasesPorAsignarResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 338,
+      "symbol": "PasesPorAsignar",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 343,
+      "symbol": "RutinaCasaResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 349,
+      "symbol": "RutinasCasa",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 380,
+      "symbol": "Coach",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 394,
+      "symbol": "ClaseCategoriasResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 400,
+      "symbol": "ClaseCategorias",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 406,
+      "symbol": "Clases",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 410,
+      "symbol": "EventosResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 416,
+      "symbol": "Eventos",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 426,
+      "symbol": "DetalleEventos",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 430,
+      "symbol": "GaleriaEventos",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 435,
+      "symbol": "EncuestasPendientes",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 441,
+      "symbol": "DatosEncuesta",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 447,
+      "symbol": "EvaluacionesEncuestas",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 454,
+      "symbol": "CategoriaEvaluacion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 464,
+      "symbol": "PagoResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 469,
+      "symbol": "Pago",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 472,
+      "symbol": "AllClubsInBody",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 477,
+      "symbol": "ClubInBody",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 485,
+      "symbol": "Respuesta",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 490,
+      "symbol": "ReservaInBodyRespuesta",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 496,
+      "symbol": "ReservaInBody",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 510,
+      "symbol": "ReadMenu",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 521,
+      "symbol": "ReadMenu.init(code:message:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 528,
+      "symbol": "DataClass",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 541,
+      "symbol": "DataClass.init(fuerzas:cardios:clases:optativas:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 549,
+      "symbol": "Cardio",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 566,
+      "symbol": "Cardio.init(clave:equipo:imagen:tiempo:intensidad:completado:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 576,
+      "symbol": "Clase",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 589,
+      "symbol": "Clase.init(clave:nombre:imagen:completado:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 597,
+      "symbol": "Fuerza",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 620,
+      "symbol": "Fuerza.init(clave:orden:nombre:video:imagen:series:repeticiones:descanso:completado:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 653,
+      "symbol": "URLSession.getSecretKey()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 731,
+      "symbol": "URLSession.markRoutine(with:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 735,
+      "symbol": "URLSession.readMenuTask(with:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 739,
+      "symbol": "URLSession.entrenamientosUsuarioTask(with:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 747,
+      "symbol": "MarkRoutineResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 759,
+      "symbol": "MarkDataClass",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 777,
+      "symbol": "EntrenamientosUsuario",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 778,
+      "symbol": "EntrenamientosUsuario.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 779,
+      "symbol": "EntrenamientosUsuario.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 780,
+      "symbol": "EntrenamientosUsuario.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 788,
+      "symbol": "EntrenamientosUsuario.init(code:message:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 795,
+      "symbol": "Routine",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 796,
+      "symbol": "Routine.usuario",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 797,
+      "symbol": "Routine.nombreEntrenamiento",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 798,
+      "symbol": "Routine.nombreVimeoEntrenamiento",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 799,
+      "symbol": "Routine.claveEntrenamiento",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 800,
+      "symbol": "Routine.calificacion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 801,
+      "symbol": "Routine.numeroReproduccion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 802,
+      "symbol": "Routine.fechaReproduccion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 803,
+      "symbol": "Routine.foto",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 804,
+      "symbol": "Routine.video",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 805,
+      "symbol": "Routine.videoIframe",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 806,
+      "symbol": "Routine.videoDistribucion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 807,
+      "symbol": "Routine.categoria",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 809,
+      "symbol": "Routine.descripEntre",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 810,
+      "symbol": "Routine.favorito",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 811,
+      "symbol": "Routine.coach",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 831,
+      "symbol": "Routine.init(usuario:nombreEntrenamiento:nombreVimeoEntrenamiento:claveEntrenamiento:calificacion:numeroReproduccion:fechaReproduccion:foto:video:videoIframe:videoDistribucion:categoria:descripEntre:coach:favorito:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 930,
+      "symbol": "Trainer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 931,
+      "symbol": "Trainer.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 932,
+      "symbol": "Trainer.nombre",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 933,
+      "symbol": "Trainer.apellidos",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 934,
+      "symbol": "Trainer.descripcion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 935,
+      "symbol": "Trainer.foto",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 936,
+      "symbol": "Trainer.calificacion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 947,
+      "symbol": "Trainer.init(id:nombre:apellidos:descripcion:foto:calificacion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Connection Manager/Models.swift",
+      "line": 964,
+      "symbol": "Mutable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Pefil/Menu/CargosPendientes/PaymentsViewController.swift",
+      "line": 388,
+      "symbol": "Collection.chunk(n:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/StoredData/SavedData.swift",
+      "line": 11,
+      "symbol": "SavedData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Collection+GroupBy.swift",
+      "line": 10,
+      "symbol": "Collection.ElementType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Collection+GroupBy.swift",
+      "line": 11,
+      "symbol": "Collection.Comparator",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Extensions.swift",
+      "line": 72,
+      "symbol": "Alert",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": null,
+      "symbol": "Reusable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": null,
+      "symbol": "StoryboardRepresentable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 11,
+      "symbol": "Reusable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 12,
+      "symbol": "Reusable.reuseId",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 16,
+      "symbol": "Reusable.reuseId",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 21,
+      "symbol": "StoryboardRepresentable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 22,
+      "symbol": "StoryboardRepresentable.filename",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 26,
+      "symbol": "StoryboardRepresentable.filename",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 40,
+      "symbol": "UIStoryboard.init(storyboard:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/Protocols/Reusable.swift",
+      "line": 44,
+      "symbol": "UIStoryboard.storyboard(_:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 15,
+      "symbol": "UITableView.dequeueReusableCell(ofType:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 23,
+      "symbol": "UITableView.dequeueReusableHeaderFooterView(ofType:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 33,
+      "symbol": "UICollectionView.dequeueReusableCell(ofType:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 42,
+      "symbol": "UICollectionView.dequeueReusableSupplementaryView(ofType:supplementaryElementOfKind:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 52,
+      "symbol": "UIStoryboard.makeViewController(ofType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 63,
+      "symbol": "UIView.instantiateFromNib(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Storyboard/Extensiones/UIView+Reusable.swift",
+      "line": 67,
+      "symbol": "UIView.instantiateFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Tools.swift",
+      "line": 24,
+      "symbol": "removeTimeStamp(fromDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Tools.swift",
+      "line": 48,
+      "symbol": "Tools",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Tools.swift",
+      "line": 94,
+      "symbol": "UIImageView.downloadImage(downloadURL:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo/Sports World/Tools.swift",
+      "line": 148,
+      "symbol": "UIImageView.downloadImageSync(downloadURL:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/aldogutierrezmontoya/Desktop/SportsWorldDefinitivo"
+}

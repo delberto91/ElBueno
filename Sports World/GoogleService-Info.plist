@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>416557133211-agfmmnl0s515dgcb4dbovos77nsu6lvr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.416557133211-agfmmnl0s515dgcb4dbovos77nsu6lvr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAy4HsSfa0f9y_JRJti8gs-lBsk-9GHSLU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>416557133211</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sportsworld.mysw</string>
+	<key>PROJECT_ID</key>
+	<string>sportsworld-prod</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sportsworld-prod.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:416557133211:ios:d660dcb303c3cc3d</string>
+	<key>DATABASE_URL</key>
+	<string>https://sportsworld-prod.firebaseio.com</string>
+</dict>
+</plist>
